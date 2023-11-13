@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ProjectCoffee</string>
+    <string name="texto_receita">Uma simples e perfeita extraída dose de espresso misturado com leite fresco e chocolate fazem esta bebida deliciosa</string>
+    <string name="txt_igredientes">Ingredientes</string>
+    <string name="_1_dose_espresso">1 dose espresso</string>
+    <string name="_100_ml_leite">100 ml leite</string>
+    <string name="_1_colher_de_cholate_em_p">1 colher de cholate em pó</string>
+    <string name="_1_colher_de_a_ucar">1 colher de açucar</string>
+    <string name="cappuccino">Cappuccino</string>
 </resources>

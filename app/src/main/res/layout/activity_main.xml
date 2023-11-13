@@ -29,7 +29,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Cappuccino"
+        android:text="@string/cappuccino"
         android:textColor="@color/white"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="@+id/view_view"
@@ -94,7 +94,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:gravity="center"
-        android:text="Uma simples e perfeita extraída dose de espresso misturado com leite fresco e chocolate fazem esta bebida deliciosa"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/texto_receita"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/view_separator" />
 
@@ -104,7 +105,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
-        android:text="Ingredientes"
+        android:text="@string/txt_igredientes"
         android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -126,7 +127,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="@id/img_igredient_1"
-        android:text="1 dose espresso"
+        android:text="@string/_1_dose_espresso"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="@id/img_igredient_1"
         app:layout_constraintStart_toEndOf="@id/img_igredient_1" />
@@ -147,7 +148,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="@id/img_igredient_2"
-        android:text="100 ml leite"
+        android:text="@string/_100_ml_leite"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="@id/img_igredient_2"
         app:layout_constraintStart_toEndOf="@id/img_igredient_2" />
@@ -168,7 +169,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="@id/img_igredient_3"
-        android:text="1 colher de cholate em pó"
+        android:text="@string/_1_colher_de_cholate_em_p"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="@id/img_igredient_3"
         app:layout_constraintStart_toEndOf="@id/img_igredient_3" />
@@ -189,7 +190,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="@id/img_igredient_4"
-        android:text="1 colher de açucar"
+        android:text="@string/_1_colher_de_a_ucar"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="@id/img_igredient_4"
         app:layout_constraintStart_toEndOf="@id/img_igredient_4" />
